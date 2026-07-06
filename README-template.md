@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live Site](https://rikhotsontiyiso.github.io/results-summary-component/)
 
 ## My process
 
@@ -47,53 +47,60 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
+During this project, I learned how to:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Build responsive layouts using Flexbox.
+- Use CSS variables and HSL colors.
+- Align and center elements using Flexbox.
+- Create reusable CSS classes.
+- Improve my understanding of spacing, typography, and component styling.
 
-To see how you can add code snippets, see below:
-
-```html
-<div class="score-container">
-  <span class="summary-numerator">80</span>
-  <span class="summary-denominator">/ 100</span>
-</div>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.percentage {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background:linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+        
+    );
 }
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I would like to improve my skills in:
 
+- CSS Grid
+- JavaScript
+- Responsive web design
+- Accessibility (ARIA and semantic HTML)
+- Consuming JSON data with JavaScript
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+I used ChatGPT during this project to:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- Debug HTML and CSS issues.
+- Understand Flexbox alignment.
+- Learn how to style specific elements.
+- Improve my README documentation.
+- Get explanations for Git and GitHub errors.
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@rikhotsontiyiso](https://www.frontendmentor.io/profile/rikhotsontiyiso)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to thank my teacher for the guidance, support, and encouragement throughout this project. The explanations, feedback, and practical examples helped me understand HTML and CSS better and complete the project successfully.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would also like to thank ChatGPT for assisting me during the project. It helped me understand difficult concepts, debug my HTML and CSS code, solve Git and GitHub issues, and improve my README documentation. The explanations made it easier for me to learn and apply the concepts on my own.
+
